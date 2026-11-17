@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="demo"></p>
+    <img src="Image/purepng.com-fishfish-981524646248khl3k.png" alt="fish">
+    <script>
+        let image = document.querySelector("img");
+        let rand = Math.random();
+        document.getElementById("demo").innerHTML = rand;
+
+        if (rand < 0.5) {
+            image.style.backgroundColor = "red";
+            image.style.transform = "rotate(180deg)";
+        } else {
+            image.style.backgroundColor = "white";
+            image.style.transform = "rotate(0deg)";
+
+        }
+    </script>
+</body>
+
+</html>

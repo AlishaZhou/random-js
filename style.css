@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+}
+
+p{
+    background-color: green;
+    font-size: 100%;
+    top: 100px;
+    position: absolute;
+}
+img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin: 250px;
+}
